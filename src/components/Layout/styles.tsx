@@ -11,5 +11,5 @@ export const Wrapper = styled.div`
 	margin: 0 auto;
 
 	${flexSettings()};
-	${flexAlignment('center', 'center')}
+	${flexAlignment('flex-start', 'center')};
 `;

@@ -13,10 +13,11 @@ export const Container = styled.div`
 	max-height: 100%;
 	overflow-y: auto;
 
-	/* scrollbar-width: none; // Firefox
+	scrollbar-width: none; // Firefox
 	::-webkit-scrollbar {
+		// Chrome
 		display: none;
-	} */
+	}
 `;
 
 export const Banner = styled.div`
