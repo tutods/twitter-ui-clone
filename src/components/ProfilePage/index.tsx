@@ -18,9 +18,7 @@ const ProfilePage: React.FC = () => {
 			</Banner>
 
 			<ProfileData>
-				<EditButton outlined>
-					Editar Perfil
-				</EditButton>
+				<EditButton outlined>Editar Perfil</EditButton>
 
 				<h1>Daniel Sousa</h1>
 				<h2>@tutods2014</h2>
@@ -29,11 +27,11 @@ const ProfilePage: React.FC = () => {
 
 				<ul>
 					<li>
-						<Icon name='map-pin' />
+						<Icon name='map_pin' />
 						Porto, Portugal
 					</li>
 					<li>
-						<Icon name='cake' />
+						<Icon name='calendar' />
 						Nascido(a) em 12 de dezembro de 1995
 					</li>
 				</ul>

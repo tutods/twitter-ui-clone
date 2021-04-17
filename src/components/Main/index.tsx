@@ -8,7 +8,7 @@ const Main: React.FC = () => {
 		<Container>
 			<Header>
 				<button>
-					<Icon name='arrow-left' />
+					<Icon name='arrow_left' />
 				</button>
 
 				<ProfileInfo>
@@ -22,9 +22,9 @@ const Main: React.FC = () => {
 			<BottomMenu>
 				<Icon name='home' />
 
-				<Icon name='search-alt' />
+				<Icon name='search' />
 
-				<Icon name='notification-alt' />
+				<Icon name='notification' />
 
 				<Icon name='mail' />
 			</BottomMenu>

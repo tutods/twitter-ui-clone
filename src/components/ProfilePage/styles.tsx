@@ -4,6 +4,7 @@ import {
 	flexSettings
 } from 'assets/styles/utils/mixins';
 import Button from 'components/Button';
+import { rgba } from 'polished';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -26,7 +27,10 @@ export const Banner = styled.div`
 	width: 100%;
 	height: min(33vw, 199px);
 
-	background-color: ${({ theme }) => theme.colors.twitter};
+	background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
+	${coverBg()};
+	background-blend-mode: overlay;
+	background-color: ${({ theme }) => rgba(theme.colors.twitter, 0.35)};
 `;
 
 export const Avatar = styled.div`
@@ -91,7 +95,7 @@ export const ProfileData = styled.div`
 				height: 20px;
 
 				margin-right: 5px;
-
+				stroke: ${({ theme }) => theme.colors.gray};
 				fill: ${({ theme }) => theme.colors.gray};
 			}
 		}

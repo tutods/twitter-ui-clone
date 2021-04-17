@@ -38,7 +38,10 @@ export const Header = styled.div`
 			height: 24px;
 			width: 24px;
 
-			fill: ${({ theme }) => theme.colors.twitter};
+			&,
+			> svg {
+				stroke: ${({ theme }) => theme.colors.twitter};
+			}
 		}
 
 		&:hover {
@@ -74,6 +77,7 @@ export const BottomMenu = styled.div`
 	left: 0;
 	right: 0;
 	z-index: 2;
+	outline: 0;
 
 	${flexSettings()};
 	${flexAlignment('center', 'space-between')};
@@ -93,13 +97,14 @@ export const BottomMenu = styled.div`
 		width: 28px;
 		height: 28px;
 
-		fill: ${({ theme }) => theme.colors.gray};
+		/* fill: ${({ theme }) => theme.colors.gray}; */
 		stroke: ${({ theme }) => theme.colors.gray};
 
-		&:hover,
+		/*
+		/* &:hover,
 		&.active {
 			fill: ${({ theme }) => theme.colors.twitter};
 			stroke: ${({ theme }) => theme.colors.twitter};
-		}
+		} */
 	}
 `;

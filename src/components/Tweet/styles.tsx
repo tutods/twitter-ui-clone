@@ -1,4 +1,9 @@
-import { flexAlignment, flexSettings } from 'assets/styles/utils/mixins';
+import {
+	coverBg,
+	flexAlignment,
+	flexSettings
+} from 'assets/styles/utils/mixins';
+import { rgba } from 'polished';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -37,6 +42,9 @@ export const Avatar = styled.div`
 
 	border-radius: 50%;
 	flex-shrink: 0;
+
+	background-image: url('https://github.com/tutods.png');
+	${coverBg()};
 
 	background-color: ${({ theme }) => theme.colors.gray};
 
@@ -79,8 +87,9 @@ export const Header = styled.div`
 
 export const Dot = styled.div`
 	background-color: ${({ theme }) => theme.colors.gray};
-	width: 2px;
-	height: 2px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
 	margin: 0 10px;
 `;
 
@@ -96,7 +105,11 @@ export const ImageContent = styled.div`
 	margin-top: 12px;
 	border-radius: 15px;
 
+	background-image: url('https://z-m-scontent.flis5-1.fna.fbcdn.net/v/t1.6435-9/156565219_860093557870453_3100206341166131638_n.png?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeGQv_AI_Mw7JB0HXlJ95Ah6Vq9wWUNh47RWr3BZQ2HjtLKJ6efZ1yFQWe41dgZlYHIoUn8IR04nG9gN8f-qi7HK&_nc_ohc=h1pg5B1gPYMAX9Hnycn&_nc_ad=z-m&_nc_cid=1272&_nc_ht=z-m-scontent.flis5-1.fna&oh=699a3e21c68548b32fbb712990b91b6f&oe=60A073E5');
+	${coverBg()};
 	background-color: ${({ theme }) => theme.colors.gray};
+	box-shadow: 0 0 20px
+		${({ theme }) => rgba(theme.colors.twitterLightHover, 0.15)};
 
 	cursor: pointer;
 
@@ -141,6 +154,7 @@ export const Status = styled.div`
 
 	&:nth-child(1) {
 		&,
+		svg,
 		> svg path {
 			stroke: ${({ theme }) => theme.colors.gray};
 			color: ${({ theme }) => theme.colors.gray};
@@ -149,9 +163,18 @@ export const Status = styled.div`
 
 	&:nth-child(2) {
 		&,
-		> svg path {
+		svg {
+			stroke: ${({ theme }) => theme.colors.retweet};
 			fill: ${({ theme }) => theme.colors.retweet};
 			color: ${({ theme }) => theme.colors.retweet};
+		}
+	}
+	&:nth-child(3) {
+		&,
+		svg {
+			stroke: ${({ theme }) => theme.colors.like};
+			fill: ${({ theme }) => theme.colors.like};
+			color: ${({ theme }) => theme.colors.like};
 		}
 	}
 `;

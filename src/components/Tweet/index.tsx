@@ -20,7 +20,6 @@ const Tweet: React.FC = () => {
 		<Container>
 			<Retweeted>
 				<RocketSeatIcon />
-
 				Voce retweetou
 			</Retweeted>
 
@@ -40,16 +39,13 @@ const Tweet: React.FC = () => {
 
 					<Icons>
 						<Status>
-							<Icon name='comment' />
-							1
+							<Icon name='message' />1
 						</Status>
 						<Status>
-							<Icon name='reply' />
-							3
+							<Icon name='share' />3
 						</Status>
 						<Status>
-							<Icon name='heart' />
-							6
+							<Icon name='heart' />6
 						</Status>
 					</Icons>
 				</Content>

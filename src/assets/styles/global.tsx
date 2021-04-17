@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 	/* Scrollbar */
 	::-webkit-scrollbar {
-		width: 10px;
+		width: 7px;
 	}
 
 	::-webkit-scrollbar-track {
@@ -27,6 +27,7 @@ export default createGlobalStyle`
 		box-sizing: border-box;
 
 		color: ${({ theme }) => theme.colors.white};
+		outline: none;
 	}
 
 	html, body, #root {
