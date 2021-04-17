@@ -16,8 +16,8 @@ export const flexAlignment = (align = 'center', justify = 'flex-start') => {
 
 export const coverBg = () => {
 	return `
-		background-repeat: no-repeat
-		background-size: cover
-		background-position: center
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	`;
 };

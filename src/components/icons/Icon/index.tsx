@@ -31,4 +31,4 @@ const Icon: React.FC<IIconProps> = ({
 	);
 };
 
-export { Icon };
+export default Icon;

@@ -1,8 +1,7 @@
+import App from 'App';
+import { ReactComponent as Icons } from 'assets/media/sprite.svg';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-
-import { ReactComponent as Icons } from 'assets/media/icons/sprite.svg';
 
 ReactDOM.render(
 	<React.StrictMode>
