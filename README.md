@@ -45,9 +45,11 @@ To see layout created by **Rocketseat** team, click on badge below:
 🧰 Utils.
 </h2>
 
-- [UI Faces](https://uifaces.co/#native_link#): to follow suggestions (user images);
-- [VS Code Faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker): **VS Code** plugin to generate random names, etc.
-
+-   [UI Faces](https://uifaces.co/#native_link#): to follow suggestions (user images);
+-   [VS Code Faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker): **VS Code** plugin to generate random names, etc.
+-   **Icons:**
+    -   [Feather Icons](https://feathericons.com/)
+    -   [IonIcons](https://ionicons.com/)
 
 <h2 style="font-weight:300">🚀 Commands:</h2>
 
