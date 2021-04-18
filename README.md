@@ -56,6 +56,11 @@ To see layout created by **Rocketseat** team, click on badge below:
 -   `yarn start`: Runs the app in the development mode
 -   `yarn build`: Build the application to deploy;
 
+<h2 style="font-weight:300">📄 Changes:</h2>
+
+-   I use theme to set colors (`src/assets/styles/themes/defaultTheme.tsx`)
+-   I use `sprite.svg` to store icons and use `Icon` component to show icons;
+
 <div align="right" style="margin-top: 50px">
 <h3 style="font-weight: 300">
 🧑🏻‍💻 About Me
