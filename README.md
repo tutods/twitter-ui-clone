@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+<h1 align='center' style='font-weight: 300'>
+Twitter UI Clone
+</h1>
+<h2 align='center' style='margin-top: 0; font-weight: 300;'>by <strong><a href='https://www.youtube.com/watch?v=K-8z_4xvT3o'>RocketSeat</a></strong></h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  	<a href="#">
+  		<img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+	</a>
+	<a href="#">
+		<img src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+	</a>
+	<a href="#">
+		<img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
+	</a>
+	<a href="https://github.com/TutoDS/twitter-ui-clone/stargazers">
+    	<img alt="Stargazers" src="https://img.shields.io/github/stars/TutoDS/twitter-ui-clone?style=for-the-badge">
+	</a>
+</div>
 
-## Available Scripts
+<h2 style='font-weight: 300;'>
+🌐 Deploy:
+</h2>
 
-In the project directory, you can run:
+<a href="https://moveit-tutods.vercel.app/">
+  <img alt="Netlify" src="https://img.shields.io/badge/netlify%20-%2300C7B7.svg?
+&style=for-the-badge&logo=netlify&logoColor=white" />
+</a>
 
-### `yarn start`
+<h2 style="font-weight:300">🎨 Layout:</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To see layout created by **Rocketseat** team, click on badge below:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a href="https://www.figma.com/file/cjNh1bd93pbJBFOza25K7L/Twitter-Clone?node-id=1%3A2" target="_blank"><img alt="Figma" src="https://img.shields.io/badge/figma%20-%23F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white"/></a>
 
-### `yarn test`
+<h2 style="font-weight: 300">
+📹 Video
+</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a href="https://www.youtube.com/watch?v=K-8z_4xvT3o">
+  <img alt="Netlify" src="https://img.shields.io/badge/rocketseat%20-%234F0599.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 style="font-weight:300">🚀 Commands:</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   `yarn start`: Runs the app in the development mode
+-   `yarn build`: Build the application to deploy;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<div align="right" style="margin-top: 50px">
+<h3 style="font-weight: 300">
+🧑🏻‍💻 About Me
+</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://github.com/TutoDS" alt="TutoDS">
+<img src="https://github.com/tutods.png" alt="Daniel Sousa @TutoDS" width="100px" style="border-radius: 100%">
+<br />
+ <sub><b>Daniel Sousa @TutoDS</b></sub>
+</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<div style="margin: 20px 0" />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[facebook]: https://facebook.com/tutods2014
+[twitter]: https://twitter.com/tutods
+[youtube]: https://youtube.com/tutods2014
+[instagram]: https://instagram.com/dsousa_12
+[linkedin]: https://www.linkedin.com/in/daniel-sousa-tutods/
+[gitlab]: https://gitlab.com/jdaniel.asousa
 
-## Learn More
+[<img src="https://img.shields.io/badge/Facebook%20-%232671E5.svg?&style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>][facebook] [<img src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"/>][twitter]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[<img src="https://img.shields.io/badge/LinkedIn%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>][linkedin] [<img src="https://img.shields.io/badge/Instagram%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>][instagram]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[<img src="https://img.shields.io/badge/YouTube%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube"/>][youtube] [<img src="https://img.shields.io/badge/Gitlab%20-%23181717.svg?&style=for-the-badge&logo=gitlab&logoColor=white"/>][gitlab]
+
+</div>
