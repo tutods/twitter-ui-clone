@@ -23,8 +23,7 @@ Twitter UI Clone
 </h2>
 
 <a href="https://twitter-clone-tutods.netlify.app/">
-  <img alt="Netlify" src="https://img.shields.io/badge/netlify%20-%2300C7B7.svg?
-&style=for-the-badge&logo=netlify&logoColor=white" />
+  <img alt="Netlify" src="https://img.shields.io/badge/netlify%20-%2300C7B7.svg?&style=for-the-badge&logo=netlify&logoColor=white" />
 </a>
 
 <h2 style="font-weight:300">🎨 Layout:</h2>
