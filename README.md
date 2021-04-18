@@ -22,7 +22,7 @@ Twitter UI Clone
 🌐 Deploy:
 </h2>
 
-<a href="https://moveit-tutods.vercel.app/">
+<a href="https://twitter-clone-tutods.netlify.app/">
   <img alt="Netlify" src="https://img.shields.io/badge/netlify%20-%2300C7B7.svg?
 &style=for-the-badge&logo=netlify&logoColor=white" />
 </a>
@@ -41,13 +41,10 @@ To see layout created by **Rocketseat** team, click on badge below:
   <img alt="Netlify" src="https://img.shields.io/badge/rocketseat%20-%234F0599.svg?&style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
 
-
 <h2 style="font-weight:300">🚀 Commands:</h2>
 
 -   `yarn start`: Runs the app in the development mode
 -   `yarn build`: Build the application to deploy;
-
-
 
 <div align="right" style="margin-top: 50px">
 <h3 style="font-weight: 300">
